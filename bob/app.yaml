@@ -6,7 +6,7 @@ variables:
     description: This is the input topic to read data from
     defaultValue: ''
     required: true
-  - name: output
+  - name: outputqwefqwef
     inputType: OutputTopic
     description: This is the output topic to write data to
     defaultValue: output-topic
