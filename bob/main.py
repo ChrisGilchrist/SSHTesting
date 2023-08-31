@@ -1,7 +1,7 @@
 import quixstreams as qx
 import os
 
-# Quix injects credentials automatically to the client.
+# Quix injects credentialaaaas automatically to the client.
 # Alternatively, you can always pass an SDK token manually as an argument.
 client = qx.QuixStreamingClient()
 
