@@ -26,6 +26,26 @@ deployments:
         description: This is the output topic to write data to
         required: true
         value: output-topic
+  - name: application2
+    application: application2
+    deploymentType: Service
+    version: CHRIS
+    resources:
+      cpu: 200
+      memory: 500
+      replicas: 1
+    desiredStatus: Running
+    variables:
+      - name: input
+        inputType: InputTopic
+        description: This is the input topic to read data from
+        required: true
+        value: output-topic
+      - name: output
+        inputType: OutputTopic
+        description: This is the output topic to write data to
+        required: true
+        value: output-topic
 
 # This section describes the Topics of the data pipeline
 topics:
